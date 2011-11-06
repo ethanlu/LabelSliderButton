@@ -1,0 +1,11 @@
+this project was inspired by title bar that is on the streams page of google+ app. the title bar shows three different views that slides left and right based on the user's
+input. i couldnt find any code that mimicked this on the net...so i tried to make it myself. this is the outcome.
+
+how to use:
+
+1) copy the LabelSliderButton class into your project
+2) include the the QuartzCore framework (used for animating the texts)
+3) call the initialization method in a view controller that you want to display the bar
+4) tweak to your liking.
+
+cheers!
