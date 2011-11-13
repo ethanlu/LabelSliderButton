@@ -195,8 +195,19 @@
     [CATransaction commit];
 }
 
+-(NSString*) getLeftText
+{
+    return [_texts objectAtIndex:((_indexOfMiddle < (_texts.count - 1)) ? (_indexOfMiddle + 1) : 0)];
+}
+
 -(NSString*) getCenterText
 {
     return [_texts objectAtIndex:_indexOfMiddle];
 }
+
+-(NSString*) getRightText
+{
+    return [_texts objectAtIndex:((_indexOfMiddle > 0) ? (_indexOfMiddle - 1) : (_texts.count - 1))];
+}
+
 @end
