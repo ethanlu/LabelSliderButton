@@ -35,6 +35,7 @@
 @property (nonatomic,strong) UIButton *button;
 
 -(id) initWithLabels:(NSMutableArray *)labels AtY:(CGFloat)y;
+-(NSString*) getCenterText;
 -(void) slideLeft;
 -(void) slideRight;
 

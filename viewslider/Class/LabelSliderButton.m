@@ -195,4 +195,8 @@
     [CATransaction commit];
 }
 
+-(NSString*) getCenterText
+{
+    return [_texts objectAtIndex:_indexOfMiddle];
+}
 @end
